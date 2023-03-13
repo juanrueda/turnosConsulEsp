@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "5Q7RV4r1AsJq7CgUUWf90CN73YnH8RR5p6Jmj1v7yuK3kBSJWe6WGR7+3ZoTtErNxbEeAIroMaO3px6YRXpZaw==",
+  "success": true,
+  "projectFilePath": "C:\\projects\\.NET\\Consul Espanol\\Consul Espanol.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\juani\\.nuget\\packages\\htmlagilitypack\\1.11.46\\htmlagilitypack.1.11.46.nupkg.sha512"
+  ],
+  "logs": []
+}

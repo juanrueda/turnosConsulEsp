@@ -1,0 +1,17 @@
+C:\projects\.NET\Consul Espanol\bin\Debug\net7.0\Consul Espanol.exe
+C:\projects\.NET\Consul Espanol\bin\Debug\net7.0\Consul Espanol.deps.json
+C:\projects\.NET\Consul Espanol\bin\Debug\net7.0\Consul Espanol.runtimeconfig.json
+C:\projects\.NET\Consul Espanol\bin\Debug\net7.0\Consul Espanol.dll
+C:\projects\.NET\Consul Espanol\bin\Debug\net7.0\Consul Espanol.pdb
+C:\projects\.NET\Consul Espanol\obj\Debug\net7.0\Consul Espanol.csproj.AssemblyReference.cache
+C:\projects\.NET\Consul Espanol\obj\Debug\net7.0\Consul Espanol.GeneratedMSBuildEditorConfig.editorconfig
+C:\projects\.NET\Consul Espanol\obj\Debug\net7.0\Consul Espanol.AssemblyInfoInputs.cache
+C:\projects\.NET\Consul Espanol\obj\Debug\net7.0\Consul Espanol.AssemblyInfo.cs
+C:\projects\.NET\Consul Espanol\obj\Debug\net7.0\Consul Espanol.csproj.CoreCompileInputs.cache
+C:\projects\.NET\Consul Espanol\obj\Debug\net7.0\Consul Espanol.dll
+C:\projects\.NET\Consul Espanol\obj\Debug\net7.0\refint\Consul Espanol.dll
+C:\projects\.NET\Consul Espanol\obj\Debug\net7.0\Consul Espanol.pdb
+C:\projects\.NET\Consul Espanol\obj\Debug\net7.0\Consul Espanol.genruntimeconfig.cache
+C:\projects\.NET\Consul Espanol\obj\Debug\net7.0\ref\Consul Espanol.dll
+C:\projects\.NET\Consul Espanol\bin\Debug\net7.0\HtmlAgilityPack.dll
+C:\projects\.NET\Consul Espanol\obj\Debug\net7.0\Consul Espanol.csproj.CopyComplete
