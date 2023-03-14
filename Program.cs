@@ -10,38 +10,20 @@ var pageContent = await response.Content.ReadAsStringAsync();
 HtmlDocument pageDocument = new HtmlDocument();
 pageDocument.LoadHtml(pageContent);
 
-HtmlNode? trSelected = null;
-string? result = "Sin cambios";
+string? result = "";
 
-// Seleccionar tabla
-foreach (HtmlNode table in pageDocument.DocumentNode.SelectNodes("//table"))
+// Seleccionar todos los nodos <tr>
+foreach (HtmlNode tr in pageDocument.DocumentNode.SelectNodes("//tr"))
 {
-    // Seleccionar todos los nodos <tr>
-    foreach (HtmlNode tr in table.SelectNodes("//tr"))
+    foreach (HtmlNode td in tr.ChildNodes) //.SelectNodes("//td"))
     {
-        foreach (HtmlNode td in tr.SelectNodes("//td"))
-        {
-            // Verificar si el nodo <td> contiene el texto deseado
-            if (td != null && td.InnerText.Contains("Registro Civil-Nacimientos"))
-            {
-                var cont = 1;
-            }
-        }
+        // // Verificar si el nodo <td> contiene el texto deseado
+        if (td != null && td.InnerText.Contains("Registro Civil-Nacimientos"))
+            result = tr.ChildNodes[5].InnerText;
     }
 }
 
-
-// if (trSelected != null)
-// {
-//     foreach (HtmlNode td in trSelected.SelectNodes("//td"))
-//     {
-//         Console.WriteLine(td.InnerText);
-//         // cont++;
-//         // if (cont == 3 && td != null && td.InnerText != "fecha por confirmar")
-//         // {
-//         //     result = td.InnerText;
-//         // }
-//     }
-// }
-
-//Console.WriteLine(result);
+if (result.ToLower() != "fecha por confirmar")
+    Console.WriteLine(result);
+else
+    Console.WriteLine("Sin novedad");
