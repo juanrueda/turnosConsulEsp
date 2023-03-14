@@ -8,27 +8,20 @@ var pageContent = await response.Content.ReadAsStringAsync();
 HtmlDocument pageDocument = new HtmlDocument();
 pageDocument.LoadHtml(pageContent);
 
-string? result = "Sin cambios";
-//List<HtmlNode> selectedTr = new List<HtmlNode>();
-
-HtmlNode selectedTr = null;
+string? result = "";
 
 // Seleccionar todos los nodos <tr>
 foreach (HtmlNode tr in pageDocument.DocumentNode.SelectNodes("//tr"))
 {
-    foreach (HtmlNode td in tr.SelectNodes("//td"))
+    foreach (HtmlNode td in tr.ChildNodes) //.SelectNodes("//td"))
     {
-        // Verificar si el nodo <td> contiene el texto deseado
+        // // Verificar si el nodo <td> contiene el texto deseado
         if (td != null && td.InnerText.Contains("Registro Civil-Nacimientos"))
-        { 
-            selectedTr = tr;
-        }
+            result = tr.ChildNodes[5].InnerText;
     }
 }
 
-foreach (HtmlNode td in selectedTr.SelectNodes("//td"))
-{
-    Console.WriteLine(td.InnerText);
-}
-
-//Console.WriteLine(result);
+if (result.ToLower() != "fecha por confirmar")
+    Console.WriteLine(result);
+else
+    Console.WriteLine("Sin novedad");
