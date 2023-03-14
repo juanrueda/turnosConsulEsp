@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "5Q7RV4r1AsJq7CgUUWf90CN73YnH8RR5p6Jmj1v7yuK3kBSJWe6WGR7+3ZoTtErNxbEeAIroMaO3px6YRXpZaw==",
+  "dgSpecHash": "y8TnuFL9rtXztOnWwxLam8WauKDZH8izwD7pN7+SnI1/Ov5GxrGxcVpl/5Hp5GFozzoZtpb/Y4V1KaFvuzlomw==",
   "success": true,
-  "projectFilePath": "C:\\projects\\.NET\\Consul Espanol\\Consul Espanol.csproj",
+  "projectFilePath": "C:\\projects\\.NET\\turnosConsulEsp\\Consul Espanol.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\juani\\.nuget\\packages\\htmlagilitypack\\1.11.46\\htmlagilitypack.1.11.46.nupkg.sha512"
+    "C:\\Users\\jurueda\\.nuget\\packages\\htmlagilitypack\\1.11.46\\htmlagilitypack.1.11.46.nupkg.sha512"
   ],
   "logs": []
 }
